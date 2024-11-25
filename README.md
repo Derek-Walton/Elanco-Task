@@ -2,7 +2,7 @@
 
 ## Summary
 
-This interview task consisted of pulling / displaying data from the (Countries Now API)[https://countriesnow.space/].
+This interview task consisted of pulling / displaying data from the [Countries Now API](https://countriesnow.space/).
 
 ## Scenario
 
