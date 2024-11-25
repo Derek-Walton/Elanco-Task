@@ -45,9 +45,22 @@ th {
 }
 
 td {
-    padding: 0.2rem 0;
+    padding: 0.4rem;
 }
 
 .flag {
     height: 50px;
 }
+
+.row-colour-1 {
+    background-color: var(--dark-blue);
+    color: white;
+}
+
+.row-colour-2 {
+    background-color: var(--blue);
+    color: white;
+}
+
+/* Notes */
+/* Very basic styling, followed Elanco's theme for the header details. */
