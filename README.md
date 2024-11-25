@@ -2,6 +2,10 @@
 
 ## Summary
 
+This interview task consisted of pulling / displaying data from the (Countries Now API)[https://countriesnow.space/].
+
+## Scenario
+
 Elanco's stakeholders want a web application that retrieves country and population data
 from a REST API. You will need to consume the data and display this information on a
 frontend. The stakeholders want an easy way to visualise how many people live in each
@@ -16,4 +20,3 @@ country.
 - (Out of my current scope) - Implement local storage so save on excessive api calls
 - More time towards styling
 - Implementing a graph in some sort, e.g. countries and their populations -> cities and their populations
-
