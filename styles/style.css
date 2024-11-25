@@ -33,6 +33,21 @@ header > img {
     padding-left: 1rem;
 }
 
+/* Table */
+
+table {
+    padding: 1rem calc(50vw - 500px);
+    border-spacing: 0px;
+}
+
+th {
+    padding: 0.4rem;
+}
+
+td {
+    padding: 0.2rem 0;
+}
+
 .flag {
     height: 50px;
 }

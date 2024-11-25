@@ -113,12 +113,12 @@ async function createTableRows() {
       const newestPopulationValue = countryPopulation[countryPopulation.length - 1].value;
       const newestPopulationYear = countryPopulation[countryPopulation.length - 1].year;
     
-      totalPopulationElem.textContent = emptyFieldCheck(newestPopulationValue, 'Population Count');
+      totalPopulationElem.textContent = emptyFieldCheck(formatNumber(newestPopulationValue), 'Population Count');
       totalPopulationYearElem.textContent = emptyFieldCheck(newestPopulationYear, 'Population Year');
       
     } catch (error) {
-      totalPopulationElem.textContent = 'N/A: Missing Population Count';
-      totalPopulationYearElem.textContent = 'N/A: Missing Population Year';
+      totalPopulationElem.textContent = 'N/A';
+      totalPopulationYearElem.textContent = 'N/A';
     }
 
     const countryCapitalElem = document.createElement('td');
@@ -137,6 +137,10 @@ function emptyFieldCheck(name, field = 'data') {
     return `N/A: Missing ${field}`;
   }
   return name
+}
+
+function formatNumber(num){
+  return num.toLocaleString();
 }
 
 createTableRows();
